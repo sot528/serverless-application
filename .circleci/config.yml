@@ -60,6 +60,7 @@ jobs:
           command: |
             . venv/bin/activate
             # 全テスト実行
+            ./create_database_yaml.sh
             python exec_test.py
 
       - run:
