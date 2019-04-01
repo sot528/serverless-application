@@ -11,6 +11,16 @@ tmp_tests
 tests/**/database.yaml
 tests/**/__pycache__
 
+## DynamoDBLocal
+DynamoDBLocal_lib
+third_party_licenses
+LICENSE.txt
+README.txt
+README.txt
+DynamoDBLocal.jar
+dynamodb_local_latest.tar.gz
+shared-local-instance.db
+
 # editor
 .idea
 
