@@ -11,7 +11,7 @@ jobs:
     docker:
       - image: circleci/python:3.6.1
       - image: bluszcz/bflocalstack-dynamodb-s3
-      - image: alismedia/dynamodb-local
+      - image: amazon/dynamodb-local:1.11.477
         environment:
           MAX_HEAP_SIZE: 2048m
           HEAP_NEWSIZE: 512m
